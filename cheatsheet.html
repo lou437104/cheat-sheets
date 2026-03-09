@@ -62,6 +62,22 @@ you can combine it with class and id like this .something[name=value] or #someth
 you can create a sibling element by using + between the siblings like this sibling1 + sibling2
 you can also use ~ to select all the siblings after the first sibling like this sibling1 ~ sibling2
 -->
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="purple">
+        <span id="purple">
+            <nav></nav>
+        </span>
+    </div>
+    <div class="purple"></div>
+    <nav></nav>
+</body>
+</html>
 
  
